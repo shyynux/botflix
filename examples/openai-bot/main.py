@@ -7,9 +7,9 @@ from typing import List
 import json
 
 # Load your OpenAI API key
-OpenAI.api_key = "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"
+# OpenAI.api_key = ""
 # or from environment variable:
-# OpenAI.api_key = os.getenv("OPENAI_API_KEY")
+OpenAI.api_key = os.getenv("OPENAI_API_KEY")
 
 # Initial system message
 initial_message = "You are chatting with Botflix, your personal Netflix TV show recommendation bot. I'll help you find the perfect show to watch! If you have any questions or need recommendations, feel free to ask."
