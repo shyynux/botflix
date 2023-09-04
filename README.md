@@ -1,6 +1,6 @@
 <p align="center">
   <picture>
-    <img alt="Textbase python library" src="assets/logo.svg" width="352" height="59" style="max-width: 100%;">
+    <img alt="Botflix Chatbot" src="assets/logo.svg" width="352" height="59" style="max-width: 100%;">
   </picture>
   <br/>
   <br/>
@@ -13,67 +13,33 @@
 </p>
 
 <h3 align="center">
-    <p>✨ Textbase is a framework for building chatbots using NLP and ML. ✨</p>
+    <p>✨ Botflix is a chatbot built using Textbase. ✨</p>
 </h3>
 
-<h3 align="center">
-    <a href="https://textbase.ai"><img src="assets/banner.png"></a>
-</h3>
+## What is botflix? 
+- Botflix internally uses OpenAI's models(GPT - 3.5), just like ChatGPT, with the help of prompt engineering, it is able to identify as botflix.
+- It can recommend TV shows, movies, anime etc accurately because of the additional context provided by the Netflix API.
+- Apart from the shows, it also provides direct links to the shows, which will help the user to directly browse Netflix via botflix.
+- Botflix stores last conversations and curate newer responses based on them.
+- It stores only relevant information like the title, cast, number of episodes etc., which the user can ask in follow up queries.
+- Since it uses GPT-3.5, there will never be an empty, repetitive or a placeholder response which are not engaging.
 
-Just implement the `on_message` function in `main.py` and Textbase will take care of the rest :)
+### Technologies used
+- API used : Used the unofficial [Netflix](https://rapidapi.com/Glavier/api/netflix54) API to search accurate and recent results.
+- Backend: Python
+- Frontend and Bot implementation: Textbase was used, [Textbase](https://docs.textbase.ai) is a tool which makes making chatbots easy.
 
-Since it is just Python you can use whatever models, libraries, vector databases and APIs you want.
+Try out the bot [here]{link}
 
-Coming soon:
-- [x] [PyPI package](https://pypi.org/project/textbase-client/)
-- [x] Easy web deployment via [textbase deploy](/docs/deployment/deploy-from-cli)
-- [ ] SMS integration
-- [ ] Native integration of other models (Claude, Llama, ...)
+### How to use this bot locally?
+Since textbase is used, we need to follow these steps - 
+1. Clone this repo, for details see [textbase-installation]([link](https://docs.textbase.ai/usage))
+2. Add OpenAI and RapidAPI key in .env file.(Both of these are free to use for some amount of requests)
+3. Follow the steps to here.
 
-![Demo Deploy GIF](assets/textbase-deploy.gif)
+### Future additions
+- [ ] Custom prompts to make the responses better.
+- [ ] Integrating image and video embedding in the bot.
+- [ ] Support for voice input.
 
-## Installation
-Make sure you have `python version >=3.9.0`, it's always good to follow the [docs](https://docs.textbase.ai/get-started/installation) 👈🏻
-### 1. Through pip
-```bash
-pip install textbase-client
-```
-
-### 2. Local installation
-Clone the repository and install the dependencies using [Poetry](https://python-poetry.org/) (you might have to [install Poetry](https://python-poetry.org/docs/#installation) first).
-
-For proper details see [here]()
-
-```bash
-git clone https://github.com/cofactoryai/textbase
-cd textbase
-poetry shell
-poetry install
-```
-
-## Start development server
-
-> If you're using the default template, **remember to set the OpenAI API key** in `main.py`.
-
-Run the following command:
-- if installed locally
-    ```bash
-    poetry run python textbase/textbase_cli.py test
-    ```
-- if installed through pip
-    ```bash
-    textbase-client test
-    ```
-Response:
-```bash
-Path to the main.py file: examples/openai-bot/main.py # You can create a main.py by yourself and add that path here. NOTE: The path should not be in quotes
-```
-Now go to the link in blue color which is shown on the CLI and you will be able to chat with your bot!
-![Local UI](assets/test_command.png)
-
-### `Other commands have been mentioned in the documentaion website.` [Have a look](https://docs.textbase.ai/usage) 😃!
-
-
-## Contributions
-
-Contributions are welcome! Please open an issue or create a pull request.
+### `Enjoy!!!
