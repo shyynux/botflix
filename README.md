@@ -1,6 +1,6 @@
 <p align="center">
   <picture>
-    <img alt="Botflix Chatbot" src="assets/logo.svg" width="352" height="59" style="max-width: 100%;">
+    <img alt="Botflix Chatbot" src="assets/logo.png" width="352" height="59" style="max-width: 100%;">
   </picture>
   <br/>
   <br/>
