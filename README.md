@@ -6,12 +6,6 @@
   <br/>
 </p>
 
-<p align="center">
-    <a href="https://docs.textbase.ai">
-        <img alt="Documentation" src="https://img.shields.io/website/http/huggingface.co/docs/transformers/index.svg?down_color=red&down_message=offline&up_message=online">
-    </a>
-</p>
-
 <h3 align="center">
     <p>✨ Botflix is a chatbot built using Textbase. ✨</p>
 </h3>
