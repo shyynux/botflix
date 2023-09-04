@@ -27,7 +27,7 @@ Try out the bot [here]{link}
 
 ### How to use this bot locally?
 Since textbase is used, we need to follow these steps - 
-1. Clone this repo, for details see [textbase-installation]([link](https://docs.textbase.ai/usage))
+1. Clone this repo, for details see [textbase-installation](https://docs.textbase.ai/usage)
 2. Add OpenAI and RapidAPI key in .env file.(Both of these are free to use for some amount of requests)
 3. Follow the steps to here.
 
